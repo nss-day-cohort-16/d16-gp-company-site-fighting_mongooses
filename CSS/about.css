@@ -1,0 +1,33 @@
+p {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 40px;
+}
+
+/* ------------  CLASS  ---------------- */
+
+figure .founderImg {
+	float: right;
+	width: 150px;
+	height: 255px;
+	padding: 20px;
+	color: white;
+}
+
+
+
+figure .habitatImg {
+	float: left;
+	width: 255px;
+	height: 139px;
+	padding: 20px;
+	color: white;
+}
+
+
+
+/* ------------  ID  ---------------- */
+
+#aboutSelected {
+	background-color: #808080;
+}
