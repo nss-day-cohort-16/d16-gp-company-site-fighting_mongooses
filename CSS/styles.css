@@ -5,11 +5,22 @@ font-family: 'Cinzel', serif;
 
 html {
 	background-image: url("../images/woodBG.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
-
 
 body {
 	margin: 0;
+	font-size: 1em; 
+}
+
+h1 {
+	color: white;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	font-family: "Indie Flower";
+	letter-spacing: .1em;
 }
 
 h2 {
@@ -17,13 +28,18 @@ h2 {
 	display: block;
 	margin: 0 auto;
 	text-align: center;
+	font-family: "Indie Flower";
+	letter-spacing: .1em;
 }
 
-#companyName {
-	text-align: center;
-	color: white;
+h3 {
+	color: white;	
 }
 
+
+nav {
+	display: block;
+}
 
 nav ul {
     list-style-type: none;
@@ -32,7 +48,7 @@ nav ul {
     padding: 0;
     overflow: hidden;
     background-color: rgba(0, 0, 0, 0.5);
-    display: fixed;
+
 }
 
 nav li {
@@ -52,30 +68,73 @@ nav li a:hover, a:active, a:focus {
     background-color: #808080;
 }
 
-.img-circle {
-	display: block;
-	border-radius: 50%;
-	max-width: 30%;
-	max-height: 30%;
-	margin: 30px auto;
+p {
+	color: white;
 }
+
 
 footer {
 	background-color: rgba(0, 0, 0, 0.5);
 	height: 25px;
 	padding-top: 8px;
-	position: absolute;
+	position: fixed;
 	bottom: 0;
 	width: 100%;
 	text-align: center;
 	font-size: .75em;
 	color: white;
-	display: fixed;
 }
 
-//Extra
+
+/* --------- CLASS ----------- */
+
+.img-circle {
+	display: block;
+	border-radius: 50%;
+	width: 40%;
+	height: 40%;
+	margin: 30px auto;
+/*	margin-top: 100px;*/
+/*	padding-top: 15px;*/
+}
+
+/*.page-img {
+	width: 150px;
+	height:150px;
+}*/
 
 
+
+
+
+/* --------- ID ----------- */
+
+
+#mainHeader {
+	margin: 0;
+	width: 100%;
+	position: fixed;
+}
+
+#mainHeader h1 {
+	font-family: "Cinzel";
+}
+
+#mainDiv {
+/*	margin-top: 105px;*/
+	padding-top: 100px;
+}
+
+#companyName {
+	text-align: center;
+	color: white;
+	margin: 0;
+	/*margin-top: -106px;*/
+	/*top: 100px;*/
+	background-color: black;
+	display: block;
+
+}
 
 
 
