@@ -91,17 +91,10 @@ footer {
 .img-circle {
 	display: block;
 	border-radius: 50%;
-	width: 40%;
-	height: 40%;
+	width: 30%;
+	height: 30%;
 	margin: 30px auto;
-/*	margin-top: 100px;*/
-/*	padding-top: 15px;*/
 }
-
-/*.page-img {
-	width: 150px;
-	height:150px;
-}*/
 
 
 
@@ -121,7 +114,6 @@ footer {
 }
 
 #mainDiv {
-/*	margin-top: 105px;*/
 	padding-top: 100px;
 }
 
@@ -129,8 +121,6 @@ footer {
 	text-align: center;
 	color: white;
 	margin: 0;
-	/*margin-top: -106px;*/
-	/*top: 100px;*/
 	background-color: black;
 	display: block;
 
