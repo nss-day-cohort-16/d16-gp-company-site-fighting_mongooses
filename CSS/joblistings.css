@@ -1,0 +1,59 @@
+body {
+	line-height: 1.4em;
+	margin: 0px;
+}
+
+article {
+	clear: both;
+	overflow: auto;
+	width: 100%;
+	border-radius: 25px;
+	border: 2px solid white;
+}
+
+article:hover {
+	background: rgba(255, 128, 128, .5);
+}
+
+hgroup {
+	margin-top: 40px;
+}
+
+figure {
+	float: left;
+	padding: 5px;
+	margin: 20px;
+	border: 1px solid #eeeeee;
+}
+
+a {
+	color: #de6581;
+	text-decoration: none;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+h2 {
+	margin: 10px 0px 5px 0px;
+	padding: 0px;
+}
+
+h3 {
+	margin: 0px 0px 10px 0px;
+	color: #de6581;
+}
+
+img {
+	height: 220px;
+	width: 290px;
+}
+
+h1 {
+	text-align: center;
+}
+
+#activeJob {
+	background-color: #808080;
+}
