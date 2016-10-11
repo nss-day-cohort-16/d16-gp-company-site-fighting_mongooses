@@ -1,0 +1,84 @@
+/*  FONTS  */
+* {font-family: 'Indie Flower', cursive;
+font-family: 'Cinzel', serif;
+}
+
+html {
+	background-image: url("../images/woodBG.jpg");
+}
+
+
+body {
+	margin: 0;
+}
+
+h2 {
+	color: white;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#companyName {
+	text-align: center;
+	color: white;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    margin-left: 5px;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: fixed;
+}
+
+nav li {
+    float: left;
+    margin: 0 5px;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover, a:active, a:focus {
+    background-color: #808080;
+}
+
+.img-circle {
+	display: block;
+	border-radius: 50%;
+	max-width: 30%;
+	max-height: 30%;
+	margin: 30px auto;
+}
+
+footer {
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 25px;
+	padding-top: 8px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	font-size: .75em;
+	color: white;
+	display: fixed;
+}
+
+//Extra
+
+
+
+
+
+
+
+
