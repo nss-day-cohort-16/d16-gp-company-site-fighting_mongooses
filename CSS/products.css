@@ -1,0 +1,33 @@
+.active {
+	background: #808080;
+}
+
+.art {
+	border: 5px solid black;
+	max-height: 350px;
+	max-width: 400px;
+  box-shadow: 10px 16px 52px -13px black;
+  transition: all .5s ease;
+  display: block; 
+  margin: 0 auto;
+}
+
+.art:hover {
+	transform: scale(1.5);
+}
+
+.artist {
+	margin: 80px 25% 10%;
+}
+
+figcaption {
+	font-family:'Indie Flower';
+	letter-spacing: .2em;
+	display: block;
+	text-align: center;
+	margin-bottom: 40px;
+	font-size: 1.2em;
+	color: white;
+}
+
+
