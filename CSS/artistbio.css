@@ -1,0 +1,32 @@
+/* CLASS SELECTORS */
+
+
+.artist-img {
+	height: 250px;
+	width: 300px;
+	box-shadow: 1px 1px 10px 1px;	
+}
+
+.artistArticle {
+	padding: 20px 5px;
+}
+
+.bio-td {
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 200px;
+	padding: 0 40px;
+	margin: 0;
+}
+
+/* ID SELECTORS */
+
+#activePage {
+	background-color: #808080;
+}
+
+#mainSection {
+	width: 70%;
+	margin: 2% auto;
+}
+
+
