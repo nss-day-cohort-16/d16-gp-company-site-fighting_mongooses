@@ -36,7 +36,7 @@ var artistArt3 = {
 	name: "Friend Zone",
 	description: "What you attain after you fail to impress a woman you're attracted to.",
 	price: 10,
-	artist: "Henry and Laura Mongoose",
+	artist: "Henry and Lara Mongoose",
 	image: "images/art4.jpg"
 };
 
@@ -46,7 +46,7 @@ var artistArt4 = {
 	name: "Jamaican Cobra",
 	description: "That Cobra is at it again, attention seeking and trying to show off infront of her.",
 	price: 10,
-	artist: "Henry and Laura Mongoose",
+	artist: "Henry and Lara Mongoose",
 	image: "images/art6.jpg"
 };
 
@@ -56,7 +56,7 @@ var artistArt5 = {
 	name: "Scurry",
 	description: "A story about a colony of mice struggling to survive all manner of beast during a long and strange winter.",
 	price: 10,
-	artist: "Henry and Laura Mongoose",
+	artist: "Henry and Lara Mongoose",
 	image: "images/art7.jpg"
 };
 
