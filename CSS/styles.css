@@ -11,7 +11,7 @@ html {
 
 body {
 	margin: 0;
-	font-size: 1em; 
+	font-size: 1em;
 }
 
 h1 {
@@ -33,12 +33,13 @@ h2 {
 }
 
 h3 {
-	color: white;	
+	color: white;
 }
 
 
 nav {
 	display: block;
+	z-index: 1;
 }
 
 nav ul {
@@ -48,12 +49,14 @@ nav ul {
     padding: 0;
     overflow: hidden;
     background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
 
 }
 
 nav li {
     float: left;
     margin: 0 5px;
+    z-index: 1;
 }
 
 nav li a {
@@ -66,6 +69,7 @@ nav li a {
 
 nav li a:hover, a:active, a:focus {
     background-color: #808080;
+    z-index: 1;
 }
 
 p {
